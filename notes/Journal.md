@@ -22,4 +22,6 @@ Today I will be starting to work through the intro C series since I am not too f
 26MAY26 - I am remaking this repo from scratch so that way it runs smoothly with VisualStudio community. Microsoft has set this software up for bigger teams and using it to do smaller tasks is a little annoying but I am learning it now to be able to follow along with the series without as many breaks and then implement it with NVIM later. I am learning how to set up a .gitignore file so that github ignores many of the garbage files produced from the solution build. We are now learning the basics of the debugger and are currently discussing the watch window. We can inspect elements and see what these objects are as well as set breaks to see exactly what the program is doing at the time of execution.
 <img width="939" height="635" alt="image" src="https://github.com/user-attachments/assets/630e8301-259b-46f5-8d47-39a2dd032f56" />
 
+There are a ton of tiny details to work through just because of how things how changed over the years. For instance in C++ I can no longer have the line of code char* Foo = "string"; <- still not even sure what this is and now it must be changed to const char* Foo = "string"; as this is safe vs the unsafe older code. There are also tiny changes with the debugger and Visual Studio functionalitly that can be frustrating to deal with.
+
 
