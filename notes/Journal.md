@@ -26,4 +26,10 @@ There are a ton of tiny details to work through just because of how things how c
 
 30MAY26 - Today we are learning about variables and are also deving deeper into the watch window. An important thing mentioned is that when setting a breakpoint and viewing in VS watch window the code executes UP TO that line. It does not execute the line that has the break point set at. When declaring a variable if it isnt initialized to some value then all the compiler will do is reserve space for it. It is completely random what will be there until there is an assignment made giving it some value. You can see this process in the debugger (kind of) by stepping over some basic math arithmetic. 'char' is a short var for 8-bit, 'short' is a medium for 16-bit and 'int' is a long for 32-bit. When running tests to see what happends when assigning 255 to an unsigned char the value assigns because that is the upper limit of the 8-bit unsigned char but when trying to add one to that same test value we wrap to 0. This is because you cannot go higher than the max 255 range for the 8-bit unsigned char. 
 
+We went over disassembling and how to read basic assembly commands in our program. This will be much more useful further down the line. 
+<img width="1880" height="276" alt="image" src="https://github.com/user-attachments/assets/f6654488-fb88-4801-bcb1-c6474701b89e" />
+
+
+
+
 
