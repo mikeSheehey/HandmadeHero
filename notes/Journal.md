@@ -29,6 +29,14 @@ There are a ton of tiny details to work through just because of how things how c
 We went over disassembling and how to read basic assembly commands in our program. This will be much more useful further down the line. 
 <img width="1880" height="276" alt="image" src="https://github.com/user-attachments/assets/f6654488-fb88-4801-bcb1-c6474701b89e" />
 
+01JUN26 - Today I am going through intro day 004. We are kicking off with reviewing the memory window and how when disassembling code you can pull the memory from the inspected variable and look it up in a memory window (similar to a watch window).<img width="595" height="284" alt="image" src="https://github.com/user-attachments/assets/46ce88ad-65a7-4c9a-9fc6-b3539e50aa57" />
+
+A simple exercise we run through is how our processor's order for bytes is stored. For example our test value here is an unsigned short storing the integer 500 (0000 0001 1111 0100 in binary) because a short is 16 bit or 2 bytes. When inspecting the address we see the lower byte (1111 0100 = 244) is stored first followed by the higher byte (0000 0001 = 1). <img width="713" height="132" alt="image" src="https://github.com/user-attachments/assets/09bc3655-5a94-4902-a87d-fccd8b864207" />
+
+This ordering process is called endianess and in our case with an AMD (x86) processor (but also Intel) this is little endianess. If the higher byte was first than we would be under the big endian ordering. 
+
+
+
 
 
 
