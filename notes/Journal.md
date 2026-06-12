@@ -41,6 +41,16 @@ This ordering process is called endianess and in our case with an AMD (x86) proc
 
 The watch window will be insanely helpful in the future in debugging and another quick tidbit mentioned is memory in programs (that are not in a release version) are intialized to '204' (0xcccccccc) as to avoid uninitialized errors when running the program. The compiler does this because "0" is a common value when dealing with memory and this can lead to hard to find bugs if left be. 
 
+12JUN26 - A benefit of C is array indexing where you can create a bunch of objects in memory that can be accessed by index. You can set a pointer to the beginning of this array without using the address symbol because in C an array is essentially a starting pointer to these objects. When handling pointer arithmitic it is important to note that the arithmatic deals with the TYPE of pointer being used. 
+<img width="1041" height="356" alt="image" src="https://github.com/user-attachments/assets/3b9ce783-0db2-4ed2-b41d-19c54d44aad3" />
+<img width="1029" height="255" alt="image" src="https://github.com/user-attachments/assets/16348479-13dd-4bb6-aaea-0a0644fbaf4e" />
+
+
+
+
+
+
+
 
 
 
