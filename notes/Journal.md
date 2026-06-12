@@ -35,6 +35,10 @@ A simple exercise we run through is how our processor's order for bytes is store
 
 This ordering process is called endianess and in our case with an AMD (x86) processor (but also Intel) this is little endianess. If the higher byte was first than we would be under the big endian ordering. 
 
+11JUN26 - Hilariously I have covered more in 4 streams with Casey (about an hour each) than I did in one semester of C programming in college. No fault to my old professor he was actually pretty amazing and a fantastic developer but the curriculum handcuffed him. Today we touched over endianess again and than moved onto a brief intro to pointers and casting. We went over have to see these different elements in memory and how to interpret hexadecimal values if needed. 
+<img width="1881" height="464" alt="image" src="https://github.com/user-attachments/assets/2db3e828-70df-4fd8-9f2e-9a1d79588d59" />
+The watch window will be insanely helpful in the future in debugging and another quick tidbit mentioned is memory in programs (that are not in a release version) are intialized to '204' (0xcccccccc) as to avoid uninitialized errors when running the program. The compiler does this because "0" is a common value when dealing with memory and this can lead to hard to find bugs if left be. 
+
 
 
 
