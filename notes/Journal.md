@@ -37,6 +37,8 @@ This ordering process is called endianess and in our case with an AMD (x86) proc
 
 11JUN26 - Hilariously I have covered more in 4 streams with Casey (about an hour each) than I did in one semester of C programming in college. No fault to my old professor he was actually pretty amazing and a fantastic developer but the curriculum handcuffed him. Today we touched over endianess again and than moved onto a brief intro to pointers and casting. We went over have to see these different elements in memory and how to interpret hexadecimal values if needed. 
 <img width="1881" height="464" alt="image" src="https://github.com/user-attachments/assets/2db3e828-70df-4fd8-9f2e-9a1d79588d59" />
+<img width="516" height="445" alt="image" src="https://github.com/user-attachments/assets/aa43ce44-c7d5-4ae0-8ae0-918efdf68a55" />
+
 The watch window will be insanely helpful in the future in debugging and another quick tidbit mentioned is memory in programs (that are not in a release version) are intialized to '204' (0xcccccccc) as to avoid uninitialized errors when running the program. The compiler does this because "0" is a common value when dealing with memory and this can lead to hard to find bugs if left be. 
 
 
